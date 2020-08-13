@@ -43,7 +43,7 @@ resetHide = (e)=> {
     */
   render(){
   
-    if(window.location.href == "http://steganohiding.com/"){
+    if(window.location.href == "https://steganohiding.com/"){
       return (
         <div>
           <div className="container-fluid">
@@ -56,7 +56,7 @@ resetHide = (e)=> {
       </div>
         </div>
       );
-    }else if(window.location.href == "http://steganohiding.com/HideData"){
+    }else if(window.location.href == "https://steganohiding.com/HideData"){
       return (
     <div>
       <div className="container-fluid">
@@ -75,7 +75,7 @@ resetHide = (e)=> {
   </div>
     </div>
   );
-}else if(window.location.href == "http://steganohiding.com/RevealData"){
+}else if(window.location.href == "https://steganohiding.com/RevealData"){
   return (
 <div>
   <div className="container-fluid">
