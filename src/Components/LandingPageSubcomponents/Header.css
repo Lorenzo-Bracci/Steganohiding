@@ -1,0 +1,36 @@
+
+
+.row {
+    height: 100%;
+    background-color: white;
+}
+
+.btn{
+    width: fit-content;
+    background-color: white;
+    color:#4CAF50;
+border-color: #4CAF50;
+}
+
+.btn:hover {
+    border-color: #4CAF50;
+    background-color: #4CAF50; 
+    color: white;
+  }
+
+h1 { 
+    font-family: "Brush Script MT", cursive;
+    font-size: 1.25rem; }
+
+@media (min-width: 576px) {
+    h1 { font-size: 1.5rem; }
+}
+@media (min-width: 768px) {
+    h1 { font-size: 2.5rem; }
+}
+@media (min-width: 992px) {
+    h1 { font-size: 3rem; }
+}
+@media (min-width: 1200px) {
+    h1 { font-size: 3rem; }
+}

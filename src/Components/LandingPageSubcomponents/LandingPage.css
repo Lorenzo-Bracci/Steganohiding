@@ -1,0 +1,10 @@
+.Site {
+    display: flex;
+    flex-direction: column;
+  }
+  .Site-content {
+    flex: 1 0 auto;
+  }
+  .Site-footer {
+    flex-shrink: 0;
+  }

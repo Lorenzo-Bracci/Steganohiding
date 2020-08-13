@@ -1,0 +1,38 @@
+.custom-file-label{
+    background-color: white;
+    color:#4CAF50;
+border-color: #4CAF50;
+display: inline-block;
+    margin-bottom: .5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 1px solid;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .w-100 {
+      width: 75% !important;
+    }
+  }  
+
+  .btn-lg{
+    width: fit-content;
+    background-color: white;
+    color:#4CAF50;
+border-color: #4CAF50;
+}
+
+.btn-lg:hover {
+    border-color: #4CAF50;
+    background-color: #4CAF50; 
+    color: white;
+  }
