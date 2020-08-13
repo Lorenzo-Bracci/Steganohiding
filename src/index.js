@@ -11,7 +11,7 @@ import * as serviceWorker from './serviceWorker';
 //basename={process.env.REACT_APP_ROUTER_BASE || ''}
 // <h1>{process.env.REACT_APP_ROUTER_BASE}</h1>
 const routing = (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
    
       <Route exact path="/" component={App} />
       <Route path="/HideData" component={HideData} />
