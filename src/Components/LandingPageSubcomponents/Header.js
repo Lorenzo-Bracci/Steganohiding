@@ -75,7 +75,7 @@ resetHide = (e)=> {
   </div>
     </div>
   );
-}else if(window.location.href == "http://Lorenzo-Bracci.github.io/Steganohiding/RevealData"){
+}else {
   return (
 <div>
   <div className="container-fluid">
