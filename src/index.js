@@ -4,14 +4,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import HideData from './Components/HideDataSubComponents/HideData';
 import RevealData from './Components/RevealDataSubComponent/RevealData';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Switch, MemoryRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 
 //basename={process.env.REACT_APP_ROUTER_BASE || ''}
 // <h1>{process.env.REACT_APP_ROUTER_BASE}</h1>
 const routing = (
-  <Router >
+  <Router>
+    <h1>HELLO</h1>
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/HideData" component={HideData} />
