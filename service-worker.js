@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Steganohiding/precache-manifest.9b42d8e0bbbb6ebd4611fd23541b935a.js"
+  "/Steganohiding/precache-manifest.db17250db248a6a11d584b7562fb9db8.js"
 );
 
 self.addEventListener('message', (event) => {
