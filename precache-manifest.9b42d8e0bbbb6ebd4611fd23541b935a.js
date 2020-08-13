@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79327341f6a25c4a13d439901511cb33",
+    "revision": "2a43bbcd2ead34a934b60dd4c7d8d355",
     "url": "/Steganohiding/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Steganohiding/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "7ea33cfc08c6b8fa77d2",
+    "revision": "0ae8ed7fe6e0fe4d8ca0",
     "url": "/Steganohiding/static/css/main.0a177c9f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Steganohiding/static/js/2.6c3a5df0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ea33cfc08c6b8fa77d2",
-    "url": "/Steganohiding/static/js/main.02887510.chunk.js"
+    "revision": "0ae8ed7fe6e0fe4d8ca0",
+    "url": "/Steganohiding/static/js/main.52e65759.chunk.js"
   },
   {
     "revision": "ef90af31c3dbebf3799f",
