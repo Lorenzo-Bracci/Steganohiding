@@ -43,7 +43,7 @@ resetHide = (e)=> {
     */
   render(){
   
-    if(this._reactInternalFiber._debugOwner.type.name == "LandingPage"){
+    if(window.location.href == "http://Lorenzo-Bracci.github.io/Steganohiding/"){
       return (
         <div>
           <div className="container-fluid">
@@ -56,7 +56,7 @@ resetHide = (e)=> {
       </div>
         </div>
       );
-    }else if(this._reactInternalFiber._debugOwner.type.name == "HideData"){
+    }else if(window.location.href == "http://Lorenzo-Bracci.github.io/Steganohiding/HideData"){
       return (
     <div>
       <div className="container-fluid">
@@ -75,7 +75,7 @@ resetHide = (e)=> {
   </div>
     </div>
   );
-}else if(this._reactInternalFiber._debugOwner.type.name == "RevealData"){
+}else if(window.location.href == "http://Lorenzo-Bracci.github.io/Steganohiding/RevealData"){
   return (
 <div>
   <div className="container-fluid">
