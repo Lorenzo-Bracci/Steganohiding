@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "441200354158462068852f0b75aa67e6",
+    "revision": "79327341f6a25c4a13d439901511cb33",
     "url": "/Steganohiding/index.html"
   },
   {
-    "revision": "18eec55c9689c7cc6417",
+    "revision": "38cea3bbacacd6a13038",
     "url": "/Steganohiding/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "dcd939608116eefb8599",
+    "revision": "7ea33cfc08c6b8fa77d2",
     "url": "/Steganohiding/static/css/main.0a177c9f.chunk.css"
   },
   {
-    "revision": "18eec55c9689c7cc6417",
-    "url": "/Steganohiding/static/js/2.e44579f0.chunk.js"
+    "revision": "38cea3bbacacd6a13038",
+    "url": "/Steganohiding/static/js/2.6c3a5df0.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Steganohiding/static/js/2.e44579f0.chunk.js.LICENSE.txt"
+    "url": "/Steganohiding/static/js/2.6c3a5df0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dcd939608116eefb8599",
-    "url": "/Steganohiding/static/js/main.88495def.chunk.js"
+    "revision": "7ea33cfc08c6b8fa77d2",
+    "url": "/Steganohiding/static/js/main.02887510.chunk.js"
   },
   {
     "revision": "ef90af31c3dbebf3799f",
