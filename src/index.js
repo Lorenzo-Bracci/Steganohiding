@@ -1,3 +1,4 @@
+//<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 import './config';
 import React from 'react';
 import ReactDOM from 'react-dom';
