@@ -81,7 +81,8 @@ handleChange = (e)=> {
              
             if (!blnValid) {
               this.setState({
-                errorMsg: 'accepted formats: .png, .jpg, .gif'
+                //errorMsg: 'accepted formats: .png, .jpg, .gif'
+                errorMsg: 'only accepted format: .png'
             })
             }else{
               this.setState({
