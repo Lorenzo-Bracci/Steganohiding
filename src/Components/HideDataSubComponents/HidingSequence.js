@@ -66,7 +66,8 @@ handleChange = (e)=> {
 
   submitFile = (e)=> {
     e.preventDefault();
-    var _validFileExtensions = [".jpg", ".gif", ".png"];   
+    //var _validFileExtensions = [".jpg", ".gif", ".png"]; 
+    var _validFileExtensions = [".png"];  
         var sFileName = this.state.fileName;
          if (sFileName.length > 0) {
             var blnValid = false;
@@ -92,7 +93,8 @@ handleChange = (e)=> {
             }
         }else{
           this.setState({
-            errorMsg: 'accepted formats: .png, .jpg, .gif'
+           // errorMsg: 'accepted formats: .png, .jpg, .gif'
+           errorMsg: 'only accepted format: .png'
         })
         }
 

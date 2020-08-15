@@ -8,7 +8,7 @@ function HidingDescription() {
     <div>
         <b>HOW TO HIDE TEXT IN AN IMAGE:</b>
         <ul className="entry-content" style={{'listStyleType': 'circle !important'}}>
-  <li style={{border:'0', padding:'0'}} >Choose the image (accepted formats: .png, .jpg, .gif) where you want to hide your data (no other multimedia file is supported by this website) and then click submit</li>
+  <li style={{border:'0', padding:'0'}} >Choose the image (only accepted format: .png) where you want to hide your data (no other multimedia file is supported by this website) and then click submit</li>
   <li style={{border:'0', padding:'0'}} >Type the text that you want to hide inside the box that pops up after that you chose your image, afterwards click submit</li>
   <li style={{border:'0', padding:'0'}} >Now you can download the image containing the hidden data clicking on download, or by clicking on HIDE NEXT you can start the process all over again for another file</li>
 </ul>
