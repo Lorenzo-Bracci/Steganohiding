@@ -169,7 +169,7 @@ pos++;
       <div className="row">
       <div className="col-10 text-center">
   <div className="custom-file w-50">
-    <input type="file" className="custom-file-input" id="inputGroupFile02" onChange={this.handleChange} required accept=".jpg, .png, .gif"/>
+    <input type="file" className="custom-file-input" id="inputGroupFile02" onChange={this.handleChange} required />
     <label className="custom-file-label" htmlFor="inputGroupFile02">{this.state.fileName}</label>
   </div>    
   <h6>{this.state.errorMsg}</h6>

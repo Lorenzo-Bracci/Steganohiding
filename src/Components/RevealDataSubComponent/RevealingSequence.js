@@ -118,7 +118,7 @@ handleChange = (e)=> {
       <div className="col-10 text-center">
   <div className="custom-file w-50">
     <input type="file" className="custom-file-input" id="inputGroupFile02" onChange={this.handleChange} 
-    onInvalid={(e) => { e.target.setCustomValidity('please enter a .png file') }} onChange={this.handleChange} required accept=".png"/>
+    onInvalid={(e) => { e.target.setCustomValidity('please enter a .png file') }} onChange={this.handleChange} required />
     <label className="custom-file-label" htmlFor="inputGroupFile02">{this.state.imageName}</label>
   </div> 
   <h6>{this.state.errorMsg}</h6>   
